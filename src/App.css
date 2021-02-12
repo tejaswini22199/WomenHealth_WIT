@@ -1,0 +1,91 @@
+.Bmi_form
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(17, 165, 202);
+  width:50%;
+  border-radius: 5px;
+  border: 1px solid rgb(17, 165, 202);
+}
+.Bmi_child
+{
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Bmi_child input:focus {
+    outline: none;
+    box-shadow: none;
+  }
+.PainPoints{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.painelements{
+  width:150px;
+    height: 50px;
+    border-radius: 40px;
+    background: #54a0ff;
+    border-color:#54a0ff;
+   
+    color:white;
+    font-weight: 100;
+}
+.player-wrapper
+{
+  display: grid;
+  grid-template-columns: auto auto;
+  
+}
+@media only screen and (max-width: 800px) {
+  .player-wrapper
+{
+  display: grid;
+  grid-template-columns: auto;
+}
+}
+.react-player{
+margin:5px;
+width:50%;
+}
+.painPoints img{
+  width:40%;
+}
+.painPoints{
+  display: flex;
+  flex-direction:row ;
+  align-items: center;
+  justify-content: center;
+}
+.home img{
+  width: 50%;
+}
+.home{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.dialogflow{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:40px;
+}
+.dialogflowbg{
+  width:400px;
+  height:500px;
+  background-color: rgb(17, 125, 226);
+  position: absolute;
+  right:10px;
+  border: solid 1px rgb(17, 125, 226) ;
+  border-radius: 4px;
+}
