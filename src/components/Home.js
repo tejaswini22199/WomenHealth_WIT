@@ -7,10 +7,8 @@ const Home = () => {
         <div>
         <div className="container home">
             <img src={Meditating_} alt="IMG" />
-            
             <Bmi/>
         </div>
-       
         </div>
     )
 }

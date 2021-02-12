@@ -17,7 +17,7 @@ const Nav=({ fixed }) =>{
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
               className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
-              href="#pablo"
+              href=""
             >WomenHealth@360
             </a>
             <button
@@ -41,7 +41,7 @@ const Nav=({ fixed }) =>{
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                   href="#pablo"
                 >
-                  <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i><span className="ml-2"><Link className="nav-link" to="/">Home</Link></span>
+                  <span className="ml-2"><Link className="nav-link" to="/">Home</Link></span>
                 </a>
               </li>
               <li className="nav-item">
@@ -49,7 +49,7 @@ const Nav=({ fixed }) =>{
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                   href="#pablo"
                 >
-                  <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i><span className="ml-2"><Link className="nav-link" to="/nutrition">Nutriget</Link></span>
+                  <span className="ml-2"><Link className="nav-link" to="/nutrition">Nutriget</Link></span>
                 </a>
               </li>
               <li className="nav-item">
@@ -57,7 +57,7 @@ const Nav=({ fixed }) =>{
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                   href="#pablo"
                 >
-                  <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i><span className="ml-2"><Link className="nav-link" to="/periodtracker">HealthSaviour</Link></span>
+                  <span className="ml-2"><Link className="nav-link" to="/periodtracker">HealthSaviour</Link></span>
                 </a>
               </li>
               <li className="nav-item">
@@ -65,7 +65,7 @@ const Nav=({ fixed }) =>{
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                   href="#pablo"
                 >
-                  <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i><span className="ml-2"><Link className="nav-link" to="/gym">SpecializedGym</Link></span>
+                  <span className="ml-2"><Link className="nav-link" to="/gym">SpecializedGym</Link></span>
                 </a>
               </li>
               <li className="nav-item">
@@ -73,7 +73,7 @@ const Nav=({ fixed }) =>{
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                   href="#pablo"
                 >
-                  <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i><span className="ml-2"><Link className="nav-link" to="/team">AboutTeam</Link></span>
+                 <span className="ml-2"><Link className="nav-link" to="/team">AboutTeam</Link></span>
                 </a>
               </li>
             </ul>
