@@ -26,7 +26,7 @@ A website for women to track their fitness and Health. It is made on account of 
 * Chat Bot which tells tips and contacts of doctors.
 
 ### Architecture
-
+![architecture](https://user-images.githubusercontent.com/43006347/107793994-e927bd00-6d7c-11eb-81fc-4f1700007353.png)
 ![Main](https://user-images.githubusercontent.com/43006347/107728217-7afae000-6d13-11eb-8610-c0ba3a7c06ca.png)
 
 
