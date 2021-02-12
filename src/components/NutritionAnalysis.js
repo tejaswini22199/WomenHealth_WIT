@@ -16,7 +16,7 @@ useEffect(()=>
     {
         const fetchItems=async()=>
         {
-           const data= await axios(`https://api.edamam.com/api/nutrition-data?app_id=${process.env.APP_ID}&app_key=${process.env.APP_KEY}&ingr=apple`)
+           const data= await axios(`https://api.edamam.com/api/nutrition-data?app_id=${process.env.APP_ID}&app_key=${process.env.APP_KEY}&ingr=1%20large%20apple`)
                  
                 setfiber(data.totalDaily.FIBTG["quantity"]);
                 setcarbs(data.totalDaily.CHOCDF["quantity"]);

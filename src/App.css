@@ -64,6 +64,9 @@ width:50%;
   align-items: center;
   justify-content: center;
 }
+.iperiod img{
+  width:40%;
+}
 .home img{
   width: 50%;
 }
@@ -97,6 +100,14 @@ width:50%;
   right:10px;
   border: solid 1px rgb(17, 125, 226) ;
   border-radius: 4px;
+  
+}
+.iperiod{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top:80px;
 }
  .itembar input{
   text-align: center;
