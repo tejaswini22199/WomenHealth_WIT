@@ -14,18 +14,20 @@ const NutritionAnalysis = () => {
    const [healthlabels,setHealthlabels]=useState([]);
 useEffect(()=>
     {
-        const fetchItems=async()=>
-        {
-           const data= await axios(`https://api.edamam.com/api/nutrition-data?app_id=${process.env.APP_ID}&app_key=${process.env.APP_KEY}&ingr=1%20large%20apple`)
-                 
+       fetch(`https://api.edamam.com/api/nutrition-data?app_id=524f3769&app_key=06af0da7522e137c31e4ef667616c848&ingr=1%20large%20apple`,{
+
+       })
+        .then(response=>response.json())
+        .then(data=>
+            {   
                 setfiber(data.totalDaily.FIBTG["quantity"]);
                 setcarbs(data.totalDaily.CHOCDF["quantity"]);
                 setfats(data.totalDaily.FAT["quantity"]);
                 setprotein(data.totalDaily.PROCNT["quantity"]);
                 setHealthlabels(data.healthLabels)
             }
-        fetchItems();         
-  }
+        )
+    }
     ,[]);
     // useEffect(()=>
     // {
